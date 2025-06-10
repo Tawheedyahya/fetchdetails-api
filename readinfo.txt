@@ -1,0 +1,21 @@
+1. run this command
+    composer install
+    
+2. run this command
+    php artisan key:generate
+
+3.  run this command
+    cp .env.example .env
+
+4.change your .env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=log_
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+5.run this command
+    php artisan config:cache
+
+6.start your appp
