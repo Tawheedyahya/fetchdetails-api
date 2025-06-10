@@ -1,11 +1,12 @@
 1. run this command
     composer install
-    
-2. run this command
+
+2.run this command
+    cp .env.example .env    
+
+3. run this command
     php artisan key:generate
 
-3.  run this command
-    cp .env.example .env
 
 4.change your .env
     DB_CONNECTION=mysql
